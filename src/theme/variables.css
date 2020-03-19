@@ -227,3 +227,20 @@ http://ionicframework.com/docs/theming/ */
     --color: white;
   }
 }
+
+
+ion-toolbar {
+  --ion-toolbar-background-color: transparent;
+  --ion-color-base: transparent !important;
+}
+
+.translucent {
+  --border-color : #fff;
+  --background: salmon;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.translucent ion-icon {
+  --color: #fff;
+}
